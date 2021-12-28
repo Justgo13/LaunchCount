@@ -41,7 +41,7 @@ const AddRocket = () => {
     const companyName = rocketState.companyName.replace(" ", "")
     const newrocket = {
       rocketName: rocketState.rocketName,
-      companyName: rocketState.rocketName,
+      companyName: rocketState.companyName,
       successLaunch: rocketState.successLaunch,
       failedLaunch: rocketState.failedLaunch,
       postponedLaunch: rocketState.postponedLaunch,
