@@ -13,3 +13,17 @@ MongoDB
 Express
 REACT
 Node
+
+## Local Development
+Open three terminals
+```
+cd frontend 
+npm install
+npm start
+
+cd frontend/src
+sass -I styles/sass/_global.sass --watch styles/sass:styles
+
+npm install 
+npm start
+```
