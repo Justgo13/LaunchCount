@@ -131,6 +131,7 @@ const EditRocket = props => {
       .then(res => console.log(res.data))
 
     console.log("Edited rocket")
+    const companyName = editedRocket.companyName.replace(" ", "")
     navigate(`/CompanyPage/${editedRocket.companyName}`)
   }
 
