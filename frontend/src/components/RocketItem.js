@@ -59,6 +59,7 @@ const RocketItem = ({ rocketName, launchData, rocketId, companyName }) => {
       .delete(`/${companyName}/${rocketId}`)
       .then((res) => console.log(res.data));
 
+    companyName = companyName.replace(" ", "")
     navigate(`/CompanyPage/${companyName}`);
   };
 
