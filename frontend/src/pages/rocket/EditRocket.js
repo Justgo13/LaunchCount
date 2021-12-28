@@ -132,7 +132,7 @@ const EditRocket = props => {
 
     console.log("Edited rocket")
     const companyName = editedRocket.companyName.replace(" ", "")
-    navigate(`/CompanyPage/${editedRocket.companyName}`)
+    navigate(`/CompanyPage/${companyName}`)
   }
 
   // create the list for the rocket stat dropdowns
