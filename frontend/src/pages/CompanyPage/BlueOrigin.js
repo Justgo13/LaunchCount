@@ -23,7 +23,7 @@ const BlueOrigin = () => {
     rocketDatabaseData = rocketDatabaseData.map(rocket => {
       const id = rocket._id
       const rocketName = rocket.rocketName
-      const companyName = rocket.companyName.replace(" ", "")
+      const companyName = rocket.companyName//.replace(" ", "")
       const successLaunch = rocket.successLaunch
       const failedLaunch = rocket.failedLaunch
       const postponedLaunch = rocket.postponedLaunch
