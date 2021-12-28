@@ -28,7 +28,7 @@ const AddRocket = () => {
 
   const { isLoading, sendRequest } = useHttpClient();
 
-  const COMPANIES = ["SpaceX", "BlueOrigin", "Nasa"];
+  const COMPANIES = ["SpaceX", "Blue Origin", "Nasa"];
 
   // create the list for the rocket stat dropdowns
   let ROCKET_STAT_NUMBERS = [];
@@ -38,17 +38,17 @@ const AddRocket = () => {
 
   const submitHandler = (e) => {
     // When post request is sent to the create url, axios will add a new record(newperson) to the database.
-
+    const companyName = rocketState.companyName.replace(" ", "")
     const newrocket = {
       rocketName: rocketState.rocketName,
-      companyName: rocketState.companyName,
+      companyName: rocketState.rocketName,
       successLaunch: rocketState.successLaunch,
       failedLaunch: rocketState.failedLaunch,
       postponedLaunch: rocketState.postponedLaunch,
     };
 
     sendRequest("/rocket/add", "POST", newrocket);
-    navigate(`/CompanyPage/${newrocket.companyName}`);
+    navigate(`/CompanyPage/${companyName}`);
   };
 
   return (
