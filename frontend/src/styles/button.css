@@ -1,0 +1,116 @@
+button {
+  margin: 2rem 0 2rem 0;
+}
+
+.red-inverse {
+  background-color: #f00 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+}
+
+.red-inverse:hover {
+  background-color: #fff !important;
+  color: #f00 !important;
+  border: 1px solid #000;
+}
+
+.red-inverse:active {
+  background-color: #f00 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+  box-shadow: none;
+}
+
+.yellow-inverse {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+}
+
+.yellow-inverse:hover {
+  background-color: #fff !important;
+  color: #ffc107 !important;
+  border: 1px solid #000;
+}
+
+.yellow-inverse:active {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+  box-shadow: none;
+}
+
+.blue-inverse {
+  background-color: #00f !important;
+  color: #fff !important;
+  border: 1px solid #000;
+}
+
+.blue-inverse:hover {
+  background-color: #fff !important;
+  color: #00f !important;
+  border: 1px solid #000;
+}
+
+.blue-inverse:active {
+  background-color: #00f !important;
+  color: #fff !important;
+  border: 1px solid #000;
+  box-shadow: none;
+}
+
+.green-inverse {
+  background-color: #0f0 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+}
+
+.green-inverse:hover {
+  background-color: #fff !important;
+  color: #0f0 !important;
+  border: 1px solid #000;
+}
+
+.green-inverse:active {
+  background-color: #0f0 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+  box-shadow: none;
+}
+
+.rocket-mod-btn {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  color: inherit;
+}
+
+.inverse:hover {
+  background-color: #ffc107;
+  border-color: #000;
+  color: #fff;
+}
+
+.inverse {
+  background-color: #fff;
+  border-color: #000;
+  color: #ffc107;
+}
+
+.inverse:active {
+  background-color: #00b618;
+  color: #fff;
+  box-shadow: none;
+}
+
+.add-rocket {
+  margin: 4rem 0 0 0;
+}
+
+.modal__close {
+  float: right;
+  width: 50%;
+}
+
+/*# sourceMappingURL=button.css.map */

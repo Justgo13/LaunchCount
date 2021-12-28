@@ -1,0 +1,65 @@
+{
+  "name": "rocket-launch-counter",
+  "private": true,
+  "description": "A rocket launch counter",
+  "version": "0.1.0",
+  "author": "Ali Aftab Muhammad & Jason Gao",
+  "bugs": {
+    "url": "https://github.com/Renfrew100/LaunchCount"
+  },
+  "dependencies": {
+    "@progress/kendo-drawing": "^1.16.0",
+    "@progress/kendo-licensing": "^1.2.1",
+    "@progress/kendo-react-charts": "^4.13.0",
+    "@progress/kendo-react-intl": "^4.13.0",
+    "@progress/kendo-theme-default": "^4.43.0",
+    "@progress/kendo-theme-material": "^4.43.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.6.2",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^7.0.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.0.4",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "react-uuid": "^1.0.2",
+    "sass": "^1.45.1",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
