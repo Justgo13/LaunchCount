@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import MainPage from "./src/pages/MainPage";
-import SpaceX from "./src/pages/CompanyPage/SpaceX";
-import BlueOrigin from "./src/pages/CompanyPage/Blue Origin";
-import Nasa from "./src/pages/CompanyPage/Nasa";
-import AddRocket from "./src/pages/rocket/AddRocket";
-import EditRocket from "./src/pages/rocket/EditRocket";
+import MainPage from "./pages/MainPage";
+import SpaceX from "./pages/CompanyPage/SpaceX";
+import BlueOrigin from "./pages/CompanyPage/Blue Origin";
+import Nasa from "./pages/CompanyPage/Nasa";
+import AddRocket from "./pages/rocket/AddRocket";
+import EditRocket from "./pages/rocket/EditRocket";
 
 ReactDOM.render(
   <Router>
