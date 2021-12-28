@@ -11,7 +11,7 @@ import { useHttpClient } from "../../hooks/http-hook"
 
 import axios from "axios"
 
-const COMPANIES = ["SpaceX", "Blue Origin", "Nasa"]
+const COMPANIES = ["SpaceX", "BlueOrigin", "Nasa"]
 
 const EditRocket = props => {
   const navigate = useNavigate();

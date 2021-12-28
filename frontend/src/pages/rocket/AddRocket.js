@@ -28,7 +28,7 @@ const AddRocket = () => {
 
   const { isLoading, sendRequest } = useHttpClient();
 
-  const COMPANIES = ["SpaceX", "Blue Origin", "Nasa"];
+  const COMPANIES = ["SpaceX", "BlueOrigin", "Nasa"];
 
   // create the list for the rocket stat dropdowns
   let ROCKET_STAT_NUMBERS = [];
